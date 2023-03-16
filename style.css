@@ -26,11 +26,11 @@ body {
   overflow: hidden;
   border-radius: 18px;
   font-family: 'Roboto', sans-serif;
-  transition: 0.6s ease-out;
+  transition: 0.4s ease-in;
 
 }
 
-.not-found img {
+.container .not-found img {
   position: relative;
   scale: 0;
   opacity: 0;
@@ -43,7 +43,6 @@ body {
 
 .not-found img:hover {
   transform: scale(1.10);
-
 
 }
 
@@ -196,4 +195,5 @@ body {
     scale: 1;
     opacity: 1;
   }
+
 }
